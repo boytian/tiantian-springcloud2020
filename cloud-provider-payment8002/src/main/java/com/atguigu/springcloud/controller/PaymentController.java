@@ -50,5 +50,13 @@ public class PaymentController {
         }
     }
 
+    /**
+     * 自定义负载均衡算法测试接口
+     * @return
+     */
+    @GetMapping(value ="/payment/lb")
+    public String getPaymentLB(){
+        return serverPort;
+    }
 
 }
