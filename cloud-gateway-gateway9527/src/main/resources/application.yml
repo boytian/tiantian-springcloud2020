@@ -1,5 +1,5 @@
 server:
-  port: 9526
+  port: 9527
 spring:
   application:
     name: cloud-gateway
