@@ -9,6 +9,11 @@ spring:
       name: config #配置文件名称
       profile: dev #读取后缀文件名，即 master分支config-dev.yml
       uri: http://localhost:3344 #配置中心地址
+  rabbitmq: #mq相关配置
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
 eureka:
   client:
     register-with-eureka: true

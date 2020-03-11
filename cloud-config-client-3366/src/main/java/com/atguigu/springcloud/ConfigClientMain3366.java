@@ -5,11 +5,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * @Author: TianTian
- * @Date: 2020/3/11 12:32
+ * @Date: 2020/3/11 17:54
  */
 @SpringBootApplication
-public class ConfigClientMain3355 {
+public class ConfigClientMain3366 {
     public static void main(String[] args) {
-        SpringApplication.run(ConfigClientMain3355.class);
+        SpringApplication.run(ConfigClientMain3366.class);
     }
 }
