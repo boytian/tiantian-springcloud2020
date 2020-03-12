@@ -3,6 +3,12 @@ server:
 spring:
   application:
     name: cloud-order-service
+  zipkin:
+    base-url: http://localhost:9411
+  sleuth:
+    sampler:
+      # 采集率介于0到1之间，1表示全部采集
+      probability: 1
 eureka:
   client:
     #表示向注册中心注册自己 默认为true
